@@ -5,6 +5,8 @@ html{
     background: -webkit-radial-gradient(circle, #fff, #ccc);   
     background: -o-radial-gradient(circle, #fff, #ccc);   
     background: -moz-radial-gradient(circle, #fff, #ccc);
+    background-image: url(images/Wiki-background.jpg);
+    border-radius: 12px;
 }
 
 #container{
@@ -19,6 +21,7 @@ html{
     -webkit-box-shadow: 0px 4px 0px 0px #009de4;
 /*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
     position: relative;
+    background-image: url(images/ninja.webp);
 }
 
 #score{
@@ -64,6 +67,7 @@ html{
     color: black;
     position: relative;
     overflow: hidden;
+    background-image: url(images/ninj2.jpg) ;
 }
 
 #instruction{
@@ -84,46 +88,6 @@ html{
     margin: 5px auto;
 }
 
-.box{
-    width: 85px;
-    height: 85px;
-    background-color: white;
-    float: left;
-    margin-right: 36px;
-    border-radius: 3px;
-    cursor: pointer;
-    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    line-height: 80px;
-    position: relative;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-}
-
-.box:hover, #startreset:hover{
-/*    background-color: #9C89F6;*/
-/*    color: white;*/
-/*    box-shadow: 0px 4px #6b54d3;*/
-/*    -moz-box-shadow: 0px 4px #6b54d3;*/
-/*    -webkit-box-shadow: 0px 4px #6b54d3;*/
-}
-
-.box:active, #startreset:active{
-    background-color: #9C89F6;
-    color: white;
-    box-shadow: 0px 0px #6b54d3; 
-    -moz-box-shadow: 0px 0px #6b54d3; 
-    -webkit-box-shadow: 0px 0px #6b54d3; 
-    top: 4px;
-}
-#box4{
-    margin-right: 0;   
-}
 
 #startreset{
     width: 78px;
@@ -173,7 +137,7 @@ html{
     left: 145px;
     z-index: 2;
     display: none;
-    
+    background-image: url(images/ninja.webp);
 }
 
 .life{
@@ -185,4 +149,13 @@ html{
 .fruit{
     display: none;
     position: absolute;
+}
+
+.footer {
+    margin: 10px 280px;
+    height:auto;
+    width: 770px;
+    border-radius: 10px;
+    text-align: center;
+   background-color: cornflowerblue;
 }
